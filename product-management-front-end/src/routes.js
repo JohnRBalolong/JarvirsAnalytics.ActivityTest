@@ -3,8 +3,9 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Products from './components/ProductTable.vue'
 
 const routes = [
-    // { path: '/', component: null },
+    { path: '/', component: null },
     { path: '/products', component: Products },
+
     // other routes
 ]
 

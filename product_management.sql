@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 04, 2023 at 06:17 PM
+-- Generation Time: Apr 17, 2023 at 01:49 PM
 -- Server version: 10.4.6-MariaDB
 -- PHP Version: 7.3.9
 
@@ -118,7 +118,11 @@ CREATE TABLE `products` (
 --
 
 INSERT INTO `products` (`id`, `product-name`, `quantity`, `price`, `quality`, `expiration-date`, `sales`, `created_at`, `updated_at`, `image`) VALUES
-(40, 'Cow-bell', 1, '40.65', 'Good', '2024-10-16', 0, '2023-04-04 07:56:47', '2023-04-04 07:56:47', 'http://127.0.0.1:8000/storage/images/products/1680623807.jpg');
+(40, 'Cow-bell', 1, '40.65', 'Good', '2024-10-16', 0, '2023-04-04 07:56:47', '2023-04-04 07:56:47', 'http://127.0.0.1:8000/storage/images/products/1680623807.jpg'),
+(43, 'Beer', 1, '90.00', 'Good', '2023-04-27', 0, '2023-04-17 01:16:09', '2023-04-17 01:16:09', 'http://127.0.0.1:8000/storage/images/products/1681722969.jpg'),
+(44, 'Ice Coffee', 1, '105.00', 'Good', '2023-04-26', 0, '2023-04-17 02:06:09', '2023-04-17 02:06:09', 'http://127.0.0.1:8000/storage/images/products/1681725968.jpg'),
+(45, 'Chicken skin', 1, '99.90', 'Good', '2023-04-19', 0, '2023-04-17 03:16:18', '2023-04-17 03:16:18', 'http://127.0.0.1:8000/storage/images/products/1681730178.jpg'),
+(46, 'Food', 1, '200.00', 'Good', '2023-04-20', 0, '2023-04-17 03:23:02', '2023-04-17 03:23:02', 'http://127.0.0.1:8000/storage/images/products/1681730582.png');
 
 -- --------------------------------------------------------
 
@@ -207,7 +211,7 @@ ALTER TABLE `personal_access_tokens`
 -- AUTO_INCREMENT for table `products`
 --
 ALTER TABLE `products`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=42;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=47;
 
 --
 -- AUTO_INCREMENT for table `users`
